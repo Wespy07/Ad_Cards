@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: azure;
+}
+
+.card {
+    margin: 10px;
+    border: 1px solid rgb(209, 208, 208);
+    width: 350px;
+    height: 70vh;
+    border-radius: 9px;
+}
+
+.image img {
+    width: 330px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.cap {
+    margin: 5px 0 0 9px;
+    padding: 7px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: gray;
+}
+.content {
+    font-family: "Poppins", sans-serif;
+}
+
+.card .content {
+    margin: 15px;
+    padding: 0 0 10px 0;
+}
+
+.card span {
+    border: 2px solid rgb(216, 215, 215);
+    margin: 9px 5px 9px 7px;
+    padding: 5px 13px;
+    border-radius: 17px;
+}
+.ch {
+    color: rgb(75, 74, 74);
+}
+.cp {
+    color: gray;
+}
+
+.btn {
+    background-color: rgb(138, 227, 243);
+    color: rgb(22, 112, 247);
+    border-style: none;
+    border-radius: 15px;
+    padding: 11px 29px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.btn:hover {
+    background-color: rgb(19, 209, 243);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.card span:hover {
+    background-color: rgb(236, 236, 236);
+    cursor: pointer;
+}
+.image img:hover{
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: inset;
+    box-shadow: 13px 12px 12px #4444dd;
+}

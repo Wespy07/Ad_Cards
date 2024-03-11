@@ -81,5 +81,8 @@ body {
 }
 
 .container:hover {
-    box-shadow: 13px 12px 12px #4444dd;
+    cursor: default;
+    box-shadow: 13px 12px 26px #4444dd;
+    transition: all 0.2s ease-in-out;
+    transform: translateY(-5px);
 }
